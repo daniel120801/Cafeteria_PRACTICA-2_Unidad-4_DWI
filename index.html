@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Mi Portafolio · Diseño Singular</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav>
+        <div class="logo" data-es="MI<span>FOLIO</span>" data-en="MY<span>FOLIO</span>">MI<span>FOLIO</span></div>
+        <ul class="menu">
+            <li><a href="#inicio" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="#acerca" data-es="Acerca" data-en="About">Acerca</a></li>
+            <li><a href="#formacion" data-es="Formación" data-en="Education">Formación</a></li>
+            <li><a href="#habilidades" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+            <li><a href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+            <li><a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="langToggle" data-es="<i class='fas fa-globe'></i> EN/ES"
+                data-en="<i class='fas fa-globe'></i> ES/EN"><i class="fas fa-globe"></i> EN/ES</button>
+            <button id="darkModeToggle" data-es="<i class='fas fa-moon'></i> Modo"
+                data-en="<i class='fas fa-moon'></i> Dark"><i class="fas fa-moon"></i> Modo</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- INICIO / HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+                <h1 data-es="Diseño <em>singular</em>,<br>código con carácter."
+                    data-en="Singular <em>design</em>,<br>code with character.">Diseño <em>singular</em>,<br>código con
+                    carácter.</h1>
+                <p data-es="Hola, soy Leobardo Vargas. Desarrollador Tecnico enfocado en el desarrollo de proyectos de gran formato."
+                    data-en="Hello, I’m Leobardo Vargas, a Technical Developer focused on large-format project development.">
+                    Hola, soy Leobardo Vargas. Desarrollador y diseñador que fusiona estética atrevida con tecnología
+                    precisa.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <button style="background:var(--accent); color:white; border:none; padding:0.8rem 2rem;"
+                        data-es="Ver proyectos" data-en="View projects">Ver proyectos</button>
+                    <button data-es="Contactar" data-en="Contact">Contactar</button>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <div class="photo-frame">
+                    <img src="profile.jpeg" alt="Fotografía profesional original"
+                        data-es="Fotografía profesional original" data-en="Original professional photo">
+                    <div class="badge" data-es="Diseñador & Dev" data-en="Designer & Dev">Diseñador & Dev</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACERCA DE MÍ + FOTOGRAFÍA -->
+        <section id="acerca">
+            <h2 data-es="Acerca de mí" data-en="About me">Acerca de mí</h2>
+            <div class="grid-2">
+                <div>
+                    <div class="about-photo">
+                        <img src="profile2.jfif">
+                    </div>
+                  
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-circle"></i>
+                    <h3 data-es="Creativo multidisciplinar" data-en="Multidisciplinary creative">Creativo
+                        multidisciplinar</h3>
+                    <p data-es="Soy un profesional apasionado por el desarrollo movil, desarrollo de videojuegos y el desarrollo frontend.Enfocado en la funcionalidad tecnica consigo proyectos funcionales."
+                        data-en="I am a professional passionate about mobile development, video game development, and frontend development. Focused on technical functionality, I create functional projects.">Soy un profesional apasionado por el desarrollo movil, desarrollo de videojuegos y el desarrollo frontend.Enfocado en
+                        la funcionalidad tecnica consigo proyectos funcionales.</p>
+                    <p><strong data-es="Ubicación:" data-en="Location:">Ubicación:</strong> <span
+                            data-es="Piedras Negras · Disponible para proyectos remotos."
+                            data-en="Piedras Negras · Available for remote projects.">Piedras negras · Disponible para
+                            proyectos remotos.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMACIÓN ACADÉMICA -->
+        <section id="formacion">
+            <h2 data-es="Formación académica" data-en="Academic background">Formación académica</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3 data-es="TSU en desarrollo de software" data-en="Higher University Technician in Software Development">Licenciatura en Diseño
+                        Digital</h3>
+                    <p data-es="Universidad Tecnologica del Norte de Coahuila · 2025" data-en="Technological University of Northern Coahuila· 2025">Universidad Tecnologica del Norte de Coahuila · 2025</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- HABILIDADES TÉCNICAS -->
+        <section id="habilidades">
+            <h2 data-es="Habilidades técnicas" data-en="Technical skills">Habilidades técnicas</h2>
+            <div class="grid-3">
+                <div class="card"><i class="fab fa-html5"></i>
+                    <h4>HTML5 & CSS3</h4>
+                    <p data-es="Maquetación avanzada, animaciones." data-en="Advanced layout, animations.">Maquetación
+                        avanzada, animaciones.</p>
+                </div>
+                <div class="card"><i class="fab fa-js"></i>
+                    <h4>JavaScript (ES6+)</h4>
+                    <p data-es="React, Vue, TypeScript." data-en="React, Vue, TypeScript.">React, Vue, TypeScript.</p>
+                </div>
+                <div class="card"><i class="fab fa-figma"></i>
+                    <h4>UI/UX Design</h4>
+                    <p data-es="Prototipado, design systems." data-en="Prototyping, design systems.">Prototipado, design
+                        systems.</p>
+                </div>
+                <div class="card"><i class="fas fa-database"></i>
+                    <h4>Node.js & Firebase</h4>
+                    <p data-es="APIs, bases de datos." data-en="APIs, databases.">APIs, bases de datos.</p>
+                </div>
+            
+                <div class="card"><i class="fas fa-mobile-alt"></i>
+                    <h4 data-es="Responsive design" data-en="Responsive design">Responsive design</h4>
+                    <p data-es="Mobile first, accesibilidad." data-en="Mobile first, accessibility.">Mobile first,
+                        accesibilidad.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCIA / PROYECTOS REALIZADOS -->
+        <section id="experiencia">
+            <h2 data-es="Experiencia y proyectos" data-en="Experience & projects">Experiencia y proyectos</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3 data-es="Desarrollo de videojuegos para desarrollador independiente" data-en="Video Game Development for Independent Developers">
+                        Desarrollo de videojuegos</h3>
+                    <p data-es="Desarrollo completo de videojuegos  seguimiento de otros proyectos avanzados"
+                        data-en="Full development + product photo session. 45% increase in conversion.">Desarrollo
+                        completo + sesión fotográfica de producto. Incremento del 45% en conversión.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3 data-es="Aplicación de escritorio para restaurante de sushi" data-en="Desktop Application for a Sushi Restaurant">Aplicación de escritorio para restaurante de sushi
+                    </h3>
+                    <p data-es="js puro y sql en servidor dedicado."
+                        data-en="Pure JavaScript and SQL on a dedicated server.">js puro y sql en servidor dedicado.</p>
+                </div>
+      
+           
+            </div>
+        </section>
+
+        <!-- TECNOLOGÍAS QUE DOMINA -->
+        <section>
+            <h2 data-es="Tecnologías que domino" data-en="Technologies I master">Tecnologías que domino</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">Android Studio</span>
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">Flask</span>
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">Node.js</span>
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">Unity</span>
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">SQL</span>
+                <span style="background:var(--accent-soft); padding:0.5rem 1.5rem; border-radius:30px;">MongoDB</span>
+            </div>
+        </section>
+
+ 
+
+        <!-- CONTACTO + REDES + FORMULARIO + GOOGLE MAPS -->
+        <section id="contacto">
+            <h2 data-es="Contacto & redes" data-en="Contact & social">Contacto & redes</h2>
+            <div class="grid-2">
+                <div>
+                    <p><i class="fas fa-envelope"></i> ldvr30345@miemail.com</p>
+                    <p><i class="fas fa-phone"></i> +52 8781194363</p>
+                    <div class="social-links" style="margin:1.5rem 0;">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.3816674956443!2d-100.61786672450137!3d28.573430475697048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865ff586598af941%3A0xf0e5df7612124b7d!2sUniversidad%20Tecnol%C3%B3gica%20del%20Norte%20de%20Coahuila!5e1!3m2!1ses-419!2smx!4v1786686751014!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form card">
+                    <h3 data-es="Envíame un mensaje" data-en="Send me a message">Envíame un mensaje</h3>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Nombre" data-es="Nombre" data-en="Name" required>
+                        <input type="email" placeholder="Email" data-es="Email" data-en="Email" required>
+                        <textarea rows="4" placeholder="Mensaje" data-es="Mensaje" data-en="Message"></textarea>
+                        <button type="submit" data-es="<i class='fas fa-paper-plane'></i> Enviar"
+                            data-en="<i class='fas fa-paper-plane'></i> Send"><i class="fas fa-paper-plane"></i>
+                            Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p data-es="© 2026 Mi Portafolio Personal · Desarrollo de software · <i class='fas fa-heart' style='color:var(--accent);'></i>"
+            data-en="© 2026 My Personal Portfolio · Software Development · <i class='fas fa-heart' style='color:var(--accent);'></i>">
+            © 2026 Mi Portafolio Personal · Desarrollo de software · <i class="fas fa-heart"
+                style="color:var(--accent);"></i></p>
+        <p style="margin-top:0.5rem;" data-es="Idioma: <a href='#' id='langFooter'>Español / English</a>"
+            data-en="Language: <a href='#' id='langFooter'>English / Español</a>">Idioma: <a href="#"
+                id="langFooter">Español / English</a></p>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
